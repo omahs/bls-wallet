@@ -47,7 +47,7 @@ jobs:
       with:
         deno-version: ${{ env.DENO_VERSION }}
 
-    # - name: run Hardhat node and deploy contracts
+    # - name: run geth node and deploy contracts
     - uses: ./.github/actions/local-contract-deploy
 
     # - name: run aggregator
