@@ -6,4 +6,4 @@ runs:
   steps:
     - working-directory: ./contracts
       shell: bash
-      run: yarn start
+      run: yarn start &
